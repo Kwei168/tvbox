@@ -1,64 +1,8 @@
 {
   "urls": [
     {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/aliluya1977/PizazzGYTVBox/main/api.json",
-      "name": "豆瓣 #7（165站）"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wen9180/ziyong/main/api.json",
-      "name": "豆瓣｜首页 #1（173站）"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/TVBoxOSC/main/api.json",
-      "name": "豆瓣｜首页 #5（154站）"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xu211A/xu211A.github.io/main/api.json",
-      "name": "豆瓣｜首页 #6（150站）"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wang987742/gaotianliuyun/master/js.json",
-      "name": "豆瓣搜索[js]（219站）"
-    },
-    {
-      "url": "https://rzhnrhjr6j-cloud.github.io/tvbox-source-monitor/sources/745561a3739c9b0c.json",
-      "name": "豆了（159站）"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ufwsss/pizazzgytvbox/main/api.json",
-      "name": "二〇二四（154站）"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-      "name": "高天流云"
-    },
-    {
-      "url": "https://play.iptv365.org/摸鱼儿/api.json",
-      "name": "摸鱼儿(365)"
-    },
-    {
-      "url": "https://play.iptv365.org/欧歌/api.json",
-      "name": "欧歌(365)"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js.json",
-      "name": "搜索 | 豆瓣[js]（298站）"
-    },
-    {
-      "url": "https://play.iptv365.org/天天开心/api.json",
-      "name": "天天开心(365)"
-    },
-    {
-      "url": "https://play.iptv365.org/潇洒/api.json",
-      "name": "潇洒(365)"
-    },
-    {
-      "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
-      "name": "玄珠"
-    },
-    {
-      "url": "https://play.iptv365.org/PG/api.json",
-      "name": "PG(365)"
+      "name": "★自建·实测33采集站(免jar)",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Kwei168/tvbox/main/selfhost.json"
     }
   ]
 }
