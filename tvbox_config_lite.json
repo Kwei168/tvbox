@@ -1,8 +1,8 @@
 {
   "urls": [
     {
-      "name": "★自建·实测33采集站(免jar)",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Kwei168/tvbox/main/selfhost.json"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Kwei168/tvbox/main/selfhost.json",
+      "name": "附·自建采集31站(免jar依赖测试用)"
     }
   ]
 }
