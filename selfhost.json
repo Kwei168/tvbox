@@ -200,37 +200,10 @@
       "filterable": 0
     },
     {
-      "key": "zy_wujinapi_37",
-      "name": "无尽 采集",
-      "type": 1,
-      "api": "https://api.wujinapi.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "zy_wujinapi_38",
-      "name": "无尽资源",
-      "type": 1,
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "zy_wsyzy_39",
       "name": "无印",
       "type": 1,
       "api": "https://api.wsyzy.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "zy_ysxq_40",
-      "name": "星球",
-      "type": 1,
-      "api": "https://www.ysxq.cc/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
