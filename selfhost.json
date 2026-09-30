@@ -1,5 +1,5 @@
 {
-  "spider": "https://play.iptv365.org/%E8%8F%9C%E5%A6%AE%E4%B8%9D/spider.jar;md5;8327a95a4336dac3f0177f08056d3165",
+  "spider": "./spider.jar",
   "sites": [
     {
       "key": "zy_360zy_2",
