@@ -19,15 +19,6 @@
       "filterable": 1
     },
     {
-      "key": "zy_lovedan_4",
-      "name": "艾旦 采集",
-      "type": 1,
-      "api": "https://www.lovedan.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "zy_iqiyizyapi_5",
       "name": "爱奇艺资源",
       "type": 1,
