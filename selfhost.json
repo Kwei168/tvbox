@@ -37,15 +37,6 @@
       "filterable": 0
     },
     {
-      "key": "zy_bfzyapi_7",
-      "name": "暴風",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "zy_dyttzyapi_8",
       "name": "电影 天堂",
       "type": 1,
