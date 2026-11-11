@@ -1,152 +1,190 @@
 {
-    "urls": [
-        {
-            "url": "https://ztha.top/TVBox/thdjk.json",
-            "name": "挺好分享"
-        },
-        {
-            "url": "https://www.yingm.cc/dm/dm.json",
-            "name": "动漫城"
-        },
-        {
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json",
-            "name": "月光在线"
-        },
-        {
-            "url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
-            "name": "小凯在线"
-        },
-        {
-            "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
-            "name": "CandyMu在线"
-        },
-        {
-            "url": "http://zhangqun1818.serv00.net/zq/api.json",
-            "name": "请勿贩卖"
-        },
-        {
-            "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
-            "name": "玄珠"
-        },
-        {
-            "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-            "name": "7-香雅情"
-        },
-        {
-            "url": "https://szyyds.cn/tv/x.json",
-            "name": "小马线路"
-        },
-        {
-            "url": "http://xhztv.top/xhz",
-            "name": "小盒子"
-        },
-        {
-            "url": "https://play.iptv365.org/小米/api.json",
-            "name": "📺小米(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/肥猫/api.json",
-            "name": "📺肥猫(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/菜妮丝/api.json",
-            "name": "📺菜妮丝(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/小虎斑/api.json",
-            "name": "📺小虎斑(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/摸鱼儿/api.json",
-            "name": "📺摸鱼儿(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/PG/api.json",
-            "name": "📺PG(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/欧歌/api.json",
-            "name": "📺欧歌(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/潇洒/api.json",
-            "name": "📺潇洒(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/天微/api.json",
-            "name": "📺天微(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/南风/api.json",
-            "name": "📺南风(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/OK/api.json",
-            "name": "📺OK(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/少儿频道/api.json",
-            "name": "📺少儿频道(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/动漫频道/api.json",
-            "name": "📺动漫频道(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/香雅情/api.json",
-            "name": "📺香雅情(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/短剧频道/api.json",
-            "name": "📺短剧频道(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/iptv365/api.json",
-            "name": "📺iptv365直播(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/戏曲音乐/api.json",
-            "name": "📺戏曲音乐(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/天天开心/api.json",
-            "name": "📺天天开心(365)"
-        },
-        {
-            "url": "https://play.iptv365.org/白嫖/api.json",
-            "name": "📺白嫖(365)"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/jsm.json",
-            "name": "tvyuan jsm.json·今日更新"
-        },
-        {
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wangguo0/tvbox-sub/main/merged.json",
-            "name": "tvbox-sub/merged·今日更新"
-        },
-        {
-            "url": "https://tv.711933.xyz/tvbox.json",
-            "name": "tvbox tvbox.json·13天前更新"
-        },
-        {
-            "url": "https://gh-proxy.org/raw.githubusercontent.com/bin1site1/bin1site1.github.io/refs/heads/main/OS.json",
-            "name": "tvyuan OS.json·今日更新"
-        },
-        {
-            "url": "https://tv.203511.xyz/0821.json",
-            "name": "tvyuan 0821.json·今日更新"
-        },
-        {
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/main/box.json",
-            "name": "tvbox/box.json·1天前更新"
-        },
-        {
-            "url": "https://tv.711933.xyz/tvbox1.json",
-            "name": "tvbox tvbox1.jso·13天前更新"
-        },
-        {
-            "url": "https://gh-proxy.org/https://github.com/niuber/niuber/raw/refs/heads/main/tvbox/TVBoxOSC/tvbox/api.json",
-            "name": "niuber api.json·15天前更新"
-        }
-    ]
+  "storeHouse": [
+    {
+      "sourceName": "无邪多仓·3线路(影视仓)",
+      "sourceUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json"
+    },
+    {
+      "sourceName": "高天流云·298源",
+      "sourceUrl": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+    },
+    {
+      "sourceName": "高天流云·加速线路",
+      "sourceUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+    },
+    {
+      "sourceName": "老六杯CI日更·234源",
+      "sourceUrl": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json"
+    },
+    {
+      "sourceName": "流光m·234源",
+      "sourceUrl": "https://raw.liucn.cc/box/m.json"
+    },
+    {
+      "sourceName": "maoystv000·162源",
+      "sourceUrl": "https://raw.githubusercontent.com/maoystv/6/main/000.json"
+    },
+    {
+      "sourceName": "qist极简jsm·158源",
+      "sourceUrl": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
+    },
+    {
+      "sourceName": "qist极简jsm·镜像",
+      "sourceUrl": "https://qist.wyfc.qzz.io/jsm.json"
+    },
+    {
+      "sourceName": "摸鱼fish·108源",
+      "sourceUrl": "https://6800.kstore.vip/fish.json"
+    },
+    {
+      "sourceName": "CLun·101源17直播",
+      "sourceUrl": "https://clun.top/box.json"
+    },
+    {
+      "sourceName": "qist0821大而全·86源17直播",
+      "sourceUrl": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json"
+    },
+    {
+      "sourceName": "王二小·63源",
+      "sourceUrl": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json"
+    },
+    {
+      "sourceName": "无邪wex·63源",
+      "sourceUrl": "https://d.kstore.dev/download/9280/wex.json"
+    },
+    {
+      "sourceName": "神秘szyyds·62源10直播",
+      "sourceUrl": "https://szyyds.cn/tv/x.json"
+    },
+    {
+      "sourceName": "小马·62源",
+      "sourceUrl": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json"
+    },
+    {
+      "sourceName": "4K·53源",
+      "sourceUrl": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json"
+    },
+    {
+      "sourceName": "饭太硬·48源",
+      "sourceUrl": "https://qist.wyfc.qzz.io/fty.json"
+    },
+    {
+      "sourceName": "香雅情XYQ·48源",
+      "sourceUrl": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+    },
+    {
+      "sourceName": "2hacc·41源",
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json"
+    },
+    {
+      "sourceName": "肥猫·40源",
+      "sourceUrl": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json"
+    },
+    {
+      "sourceName": "fswws自动更新·9源25直播",
+      "sourceUrl": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json"
+    },
+    {
+      "sourceName": "俊于top98·24源",
+      "sourceUrl": "http://home.jundie.top:81/top98.json"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/shiguang.json",
+      "name": "时光多仓·54线路(OK影视)"
+    },
+    {
+      "url": "http://ztha.top/TVBox/GYCK.json",
+      "name": "GYCK公益多仓·32线路(OK影视)"
+    },
+    {
+      "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
+      "name": "noimank多仓·14线路(OK影视)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "高天流云·298源"
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "高天流云·加速线路"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json",
+      "name": "老六杯CI日更·234源"
+    },
+    {
+      "url": "https://raw.liucn.cc/box/m.json",
+      "name": "流光m·234源"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "name": "maoystv000·162源"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "name": "qist极简jsm·158源"
+    },
+    {
+      "url": "https://qist.wyfc.qzz.io/jsm.json",
+      "name": "qist极简jsm·镜像"
+    },
+    {
+      "url": "https://6800.kstore.vip/fish.json",
+      "name": "摸鱼fish·108源"
+    },
+    {
+      "url": "https://clun.top/box.json",
+      "name": "CLun·101源17直播"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
+      "name": "qist0821大而全·86源17直播"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json",
+      "name": "王二小·63源"
+    },
+    {
+      "url": "https://d.kstore.dev/download/9280/wex.json",
+      "name": "无邪wex·63源"
+    },
+    {
+      "url": "https://szyyds.cn/tv/x.json",
+      "name": "神秘szyyds·62源10直播"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json",
+      "name": "小马·62源"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json",
+      "name": "4K·53源"
+    },
+    {
+      "url": "https://qist.wyfc.qzz.io/fty.json",
+      "name": "饭太硬·48源"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "name": "香雅情XYQ·48源"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+      "name": "2hacc·41源"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json",
+      "name": "肥猫·40源"
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json",
+      "name": "fswws自动更新·9源25直播"
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "俊于top98·24源"
+    }
+  ]
 }

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "时光多仓·54线路(OK影视)",
+    "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/shiguang.json",
+    "compat": "fongmi"
+  },
+  {
+    "name": "GYCK公益多仓·32线路(OK影视)",
+    "url": "http://ztha.top/TVBox/GYCK.json",
+    "compat": "fongmi"
+  },
+  {
+    "name": "noimank多仓·14线路(OK影视)",
+    "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
+    "compat": "fongmi"
+  },
+  {
+    "name": "无邪多仓·3线路(影视仓)",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json",
+    "compat": "tvbox"
+  },
+  {
+    "name": "高天流云·298源",
+    "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "高天流云·加速线路",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+    "compat": "both"
+  },
+  {
+    "name": "老六杯CI日更·234源",
+    "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "流光m·234源",
+    "url": "https://raw.liucn.cc/box/m.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "maoystv000·162源",
+    "url": "https://raw.githubusercontent.com/maoystv/6/main/000.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "qist极简jsm·158源",
+    "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "qist极简jsm·镜像",
+    "url": "https://qist.wyfc.qzz.io/jsm.json",
+    "compat": "both"
+  },
+  {
+    "name": "摸鱼fish·108源",
+    "url": "https://6800.kstore.vip/fish.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "CLun·101源17直播",
+    "url": "https://clun.top/box.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "qist0821大而全·86源17直播",
+    "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "王二小·63源",
+    "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json",
+    "compat": "both"
+  },
+  {
+    "name": "无邪wex·63源",
+    "url": "https://d.kstore.dev/download/9280/wex.json",
+    "compat": "both"
+  },
+  {
+    "name": "神秘szyyds·62源10直播",
+    "url": "https://szyyds.cn/tv/x.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "小马·62源",
+    "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json",
+    "compat": "both"
+  },
+  {
+    "name": "4K·53源",
+    "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json",
+    "compat": "both"
+  },
+  {
+    "name": "饭太硬·48源",
+    "url": "https://qist.wyfc.qzz.io/fty.json",
+    "compat": "both",
+    "lite": true
+  },
+  {
+    "name": "香雅情XYQ·48源",
+    "url": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+    "compat": "both"
+  },
+  {
+    "name": "2hacc·41源",
+    "url": "https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+    "compat": "both"
+  },
+  {
+    "name": "肥猫·40源",
+    "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json",
+    "compat": "both"
+  },
+  {
+    "name": "fswws自动更新·9源25直播",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json",
+    "compat": "both"
+  },
+  {
+    "name": "俊于top98·24源",
+    "url": "http://home.jundie.top:81/top98.json",
+    "compat": "both"
+  }
+]

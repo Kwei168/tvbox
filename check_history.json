@@ -1,0 +1,207 @@
+{
+  "dead_streak": {},
+  "history": {
+    "2026-11-11": {
+      "时光多仓·54线路(OK影视)": {
+        "status": "ok",
+        "kind": "multi",
+        "sites": 0,
+        "lives": 0,
+        "lines": 54,
+        "detail": "多仓(urls)=54线路"
+      },
+      "GYCK公益多仓·32线路(OK影视)": {
+        "status": "ok",
+        "kind": "multi",
+        "sites": 0,
+        "lives": 0,
+        "lines": 32,
+        "detail": "多仓(urls)=32线路"
+      },
+      "noimank多仓·14线路(OK影视)": {
+        "status": "ok",
+        "kind": "multi",
+        "sites": 0,
+        "lives": 0,
+        "lines": 14,
+        "detail": "多仓(urls)=14线路"
+      },
+      "无邪多仓·3线路(影视仓)": {
+        "status": "ok",
+        "kind": "multi",
+        "sites": 0,
+        "lives": 0,
+        "lines": 3,
+        "detail": "多仓(storeHouse)=3线路"
+      },
+      "高天流云·298源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 298,
+        "lives": 2,
+        "lines": 0,
+        "detail": "sites=298 lives=2"
+      },
+      "高天流云·加速线路": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 298,
+        "lives": 2,
+        "lines": 0,
+        "detail": "sites=298 lives=2"
+      },
+      "老六杯CI日更·234源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 234,
+        "lives": 3,
+        "lines": 0,
+        "detail": "sites=234 lives=3"
+      },
+      "流光m·234源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 234,
+        "lives": 3,
+        "lines": 0,
+        "detail": "sites=234 lives=3"
+      },
+      "maoystv000·162源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 162,
+        "lives": 10,
+        "lines": 0,
+        "detail": "sites=162 lives=10"
+      },
+      "qist极简jsm·158源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 158,
+        "lives": 3,
+        "lines": 0,
+        "detail": "sites=158 lives=3"
+      },
+      "qist极简jsm·镜像": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 158,
+        "lives": 3,
+        "lines": 0,
+        "detail": "sites=158 lives=3"
+      },
+      "摸鱼fish·108源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 108,
+        "lives": 1,
+        "lines": 0,
+        "detail": "sites=108 lives=1"
+      },
+      "CLun·101源17直播": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 101,
+        "lives": 17,
+        "lines": 0,
+        "detail": "sites=101 lives=17"
+      },
+      "qist0821大而全·86源17直播": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 86,
+        "lives": 16,
+        "lines": 0,
+        "detail": "sites=86 lives=16"
+      },
+      "王二小·63源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 63,
+        "lives": 2,
+        "lines": 0,
+        "detail": "sites=63 lives=2"
+      },
+      "无邪wex·63源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 63,
+        "lives": 2,
+        "lines": 0,
+        "detail": "sites=63 lives=2"
+      },
+      "神秘szyyds·62源10直播": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 62,
+        "lives": 10,
+        "lines": 0,
+        "detail": "sites=62 lives=10"
+      },
+      "小马·62源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 62,
+        "lives": 10,
+        "lines": 0,
+        "detail": "sites=62 lives=10"
+      },
+      "4K·53源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 53,
+        "lives": 2,
+        "lines": 0,
+        "detail": "sites=53 lives=2"
+      },
+      "饭太硬·48源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 48,
+        "lives": 6,
+        "lines": 0,
+        "detail": "sites=48 lives=6"
+      },
+      "香雅情XYQ·48源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 48,
+        "lives": 3,
+        "lines": 0,
+        "detail": "sites=48 lives=3"
+      },
+      "2hacc·41源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 41,
+        "lives": 4,
+        "lines": 0,
+        "detail": "sites=41 lives=4"
+      },
+      "肥猫·40源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 40,
+        "lives": 1,
+        "lines": 0,
+        "detail": "sites=40 lives=1"
+      },
+      "fswws自动更新·9源25直播": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 9,
+        "lives": 25,
+        "lines": 0,
+        "detail": "sites=9 lives=25"
+      },
+      "俊于top98·24源": {
+        "status": "ok",
+        "kind": "config",
+        "sites": 24,
+        "lives": 2,
+        "lines": 0,
+        "detail": "sites=24 lives=2"
+      }
+    }
+  }
+}
