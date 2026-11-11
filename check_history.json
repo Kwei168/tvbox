@@ -8,7 +8,7 @@
         "sites": 0,
         "lives": 0,
         "lines": 54,
-        "detail": "多仓(urls)=54线路"
+        "detail": "多仓=54线路"
       },
       "GYCK公益多仓·32线路(OK影视)": {
         "status": "ok",
@@ -16,7 +16,7 @@
         "sites": 0,
         "lives": 0,
         "lines": 32,
-        "detail": "多仓(urls)=32线路"
+        "detail": "多仓=32线路"
       },
       "noimank多仓·14线路(OK影视)": {
         "status": "ok",
@@ -24,7 +24,7 @@
         "sites": 0,
         "lives": 0,
         "lines": 14,
-        "detail": "多仓(urls)=14线路"
+        "detail": "多仓=14线路"
       },
       "无邪多仓·3线路(影视仓)": {
         "status": "ok",
@@ -32,17 +32,9 @@
         "sites": 0,
         "lives": 0,
         "lines": 3,
-        "detail": "多仓(storeHouse)=3线路"
+        "detail": "多仓=3线路"
       },
       "高天流云·298源": {
-        "status": "ok",
-        "kind": "config",
-        "sites": 298,
-        "lives": 2,
-        "lines": 0,
-        "detail": "sites=298 lives=2"
-      },
-      "高天流云·加速线路": {
         "status": "ok",
         "kind": "config",
         "sites": 298,
@@ -75,14 +67,6 @@
         "detail": "sites=162 lives=10"
       },
       "qist极简jsm·158源": {
-        "status": "ok",
-        "kind": "config",
-        "sites": 158,
-        "lives": 3,
-        "lines": 0,
-        "detail": "sites=158 lives=3"
-      },
-      "qist极简jsm·镜像": {
         "status": "ok",
         "kind": "config",
         "sites": 158,

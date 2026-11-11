@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """每周扫描 GitHub 新增影视仓/TVBox 接口源（GitHub Actions 定时跑；本地可 --dry-run 只测不改）。
 流程：搜索近 30 天活跃仓库 → 抓 README 提取接口地址 → 归一化去重 → 并发实测 →
-按门槛与评分收录最多 5 条 → 更新 config/sources.json 并重新生成根目录 tvbox_config.json / tvbox_config_lite.json → 写 reports/scan-YYYY-MM-DD.md。
+按门槛与评分收录最多 5 条（写入 config/sources.json，并立即抓取快照到 output/）→
+重新生成根目录接口产物 → 写 reports/scan-YYYY-MM-DD.md。
 Actions 中 GITHUB_TOKEN 自动注入，可大幅提升 API 限额。
 """
 import base64
@@ -16,7 +17,8 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import CTX, REPORTS_DIR, TOKEN, USER_AGENT, describe, load_sources, save_sources
+from common import CTX, REPORTS_DIR, SNAPSHOT_DIR, TOKEN, USER_AGENT, describe, load_sources, save_sources
+from check_sources import fetch_source
 import gen_multistore as G
 
 QUERIES = ["tvbox 接口", "影视仓 接口", "tvbox 配置", "OK影视 配置", "影视仓 多仓"]
@@ -75,8 +77,9 @@ def repo_from_url(u):
 def main():
     dry = "--dry-run" in sys.argv
     entries = load_sources()
-    existing = {normalize_url(e["url"]) for e in entries}
-    known_repos = {repo_from_url(e["url"]) for e in entries} - {None}
+    existing = {normalize_url(u) for e in entries for u in e.get("urls", [])}
+    known_repos = {repo_from_url(u) for e in entries for u in e.get("urls", [])} - {None}
+    existing_ids = {e.get("id", "") for e in entries}
 
     cutoff = (datetime.datetime.now(datetime.timezone.utc)
               - datetime.timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")
@@ -142,7 +145,7 @@ def main():
 
     added = []
     for c, r in picked:
-        # 命名优先用接口真实所属仓库（raw 地址能反查出 owner/name），否则用发现它的仓库
+        # 命名与 id 优先用接口真实所属仓库（raw 地址能反查出 owner/name），否则用发现它的仓库
         src_repo = repo_from_url(c["url"]) or c["repo"]
         repo_short = src_repo.split("/")[-1]
         if r.get("lines"):
@@ -153,7 +156,16 @@ def main():
             if r.get("lives", 0) >= 5:
                 scale += "%d直播" % r["lives"]
             compat = "both"
-        added.append({"name": "%s·%s" % (repo_short, scale), "url": c["url"], "compat": compat})
+        slug = re.sub(r"[^a-z0-9]+", "-", src_repo.lower()).strip("-")
+        if not slug:
+            slug = "src-%d" % (len(added) + 1)
+        base_slug, n = slug, 2
+        while slug in existing_ids:
+            slug = "%s-%d" % (base_slug, n)
+            n += 1
+        existing_ids.add(slug)
+        added.append({"id": slug, "name": "%s·%s" % (repo_short, scale),
+                      "urls": [c["url"]], "compat": compat})
 
     os.makedirs(REPORTS_DIR, exist_ok=True)
     rep = ["# 每周扫描报告 %s" % TODAY, "",
@@ -162,12 +174,12 @@ def main():
            "", "## 收录明细", ""]
     if added:
         for a in added:
-            rep.append("- 收录 %s（%s）`%s`" % (a["name"], {"tvbox": "影视仓", "fongmi": "OK影视", "both": "通用"}[a["compat"]], a["url"]))
+            rep.append("- 收录 %s（%s）`%s`" % (a["name"], {"tvbox": "影视仓", "fongmi": "OK影视", "both": "通用"}[a["compat"]], a["urls"][0]))
     else:
         rep.append("- 本轮无合格新源，未改动配置")
     rep += ["", "## 全部候选实测", "", "| 仓库 | 接口 | 结果 | 实测 | 判定 |", "|---|---|---|---|---|"]
     for c, r in tested:
-        if any(a["url"] == c["url"] for a in added):
+        if any(a["urls"][0] == c["url"] for a in added):
             mark = "收录"
         elif qualified(r):
             mark = "合格未入选"
@@ -181,9 +193,18 @@ def main():
     if dry:
         print("== [dry-run] 扫描完成，未改动任何文件 ==")
     elif added:
+        # 新收录的源立即抓取快照，让今晚的接口产物就能用上
+        os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+        snap_ok = 0
+        for a in added:
+            _meta, content = fetch_source(a)
+            if content is not None:
+                with open(os.path.join(SNAPSHOT_DIR, a["id"] + ".json"), "w", encoding="utf-8") as f:
+                    json.dump(content, f, ensure_ascii=False, indent=2)
+                snap_ok += 1
         save_sources(entries + added)
         G.write_all(entries + added)
-        print("== 已收录 %d 条并重新生成配置 ==" % len(added))
+        print("== 已收录 %d 条（快照 %d/%d），接口产物已重新生成 ==" % (len(added), snap_ok, len(added)))
     else:
         print("== 无合格新源，配置未改动 ==")
 

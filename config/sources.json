@@ -155,5 +155,20 @@
     "name": "俊于top98·24源",
     "compat": "both",
     "urls": ["http://home.jundie.top:81/top98.json"]
+  },
+  {
+    "id": "tvyuan-multi",
+    "name": "25175聚合多仓·93线路(每小时更新)",
+    "compat": "tvbox",
+    "urls": [
+      "https://raw.githubusercontent.com/25175/tvyuan/master/tvbox_multi.json",
+      "https://gitee.com/onm-hundred-and-eleven/tvyuan/raw/main/tvbox_multi.json"
+    ]
+  },
+  {
+    "id": "tvyuan-speed",
+    "name": "25175测速单仓·1401源115直播(每小时更新)",
+    "compat": "both",
+    "urls": ["https://tv.cc0cd.cc.cd"]
   }
 ]

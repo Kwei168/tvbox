@@ -9,6 +9,7 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_FILE = os.path.join(ROOT, "config", "sources.json")
 REPORTS_DIR = os.path.join(ROOT, "reports")
+SNAPSHOT_DIR = os.path.join(ROOT, "output")
 HISTORY_FILE = os.path.join(ROOT, "check_history.json")
 
 USER_AGENT = "okhttp/4.9.3"

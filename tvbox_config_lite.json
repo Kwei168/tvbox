@@ -1,43 +1,43 @@
 {
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/gaotianliuyun.json",
       "name": "高天流云·298源"
     },
     {
-      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/laoliubei.json",
       "name": "老六杯CI日更·234源"
     },
     {
-      "url": "https://raw.liucn.cc/box/m.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/liucn.json",
       "name": "流光m·234源"
     },
     {
-      "url": "https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/maoystv.json",
       "name": "maoystv000·162源"
     },
     {
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/qistjsm.json",
       "name": "qist极简jsm·158源"
     },
     {
-      "url": "https://6800.kstore.vip/fish.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/fish.json",
       "name": "摸鱼fish·108源"
     },
     {
-      "url": "https://clun.top/box.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/clun.json",
       "name": "CLun·101源17直播"
     },
     {
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/qist0821.json",
       "name": "qist0821大而全·86源17直播"
     },
     {
-      "url": "https://szyyds.cn/tv/x.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/szyyds.json",
       "name": "神秘szyyds·62源10直播"
     },
     {
-      "url": "https://qist.wyfc.qzz.io/fty.json",
+      "url": "https://raw.githubusercontent.com/Kwei168/tvbox/main/output/fty.json",
       "name": "饭太硬·48源"
     }
   ]

@@ -1,9 +1,265 @@
 {
   "date": "2026-11-11",
-  "total": 25,
-  "ok": 25,
+  "checked_at": "2026-11-11 04:20:23 UTC",
+  "total": 23,
+  "ok": 23,
   "dead": 0,
   "removed": [],
   "recovered": [],
-  "entries_now": 25
+  "entries_now": 23,
+  "sources": {
+    "shiguang": {
+      "name": "时光多仓·54线路(OK影视)",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/shiguang.json",
+      "kind": "multi",
+      "sites": 0,
+      "lives": 0,
+      "lines": 54,
+      "spider": false,
+      "streak": 0
+    },
+    "gyck": {
+      "name": "GYCK公益多仓·32线路(OK影视)",
+      "status": "ok",
+      "url_used": "http://ztha.top/TVBox/GYCK.json",
+      "kind": "multi",
+      "sites": 0,
+      "lives": 0,
+      "lines": 32,
+      "spider": false,
+      "streak": 0
+    },
+    "noimank": {
+      "name": "noimank多仓·14线路(OK影视)",
+      "status": "ok",
+      "url_used": "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
+      "kind": "multi",
+      "sites": 0,
+      "lives": 0,
+      "lines": 14,
+      "spider": false,
+      "streak": 0
+    },
+    "wuxie-multi": {
+      "name": "无邪多仓·3线路(影视仓)",
+      "status": "ok",
+      "url_used": "https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json",
+      "kind": "multi",
+      "sites": 0,
+      "lives": 0,
+      "lines": 3,
+      "spider": false,
+      "streak": 0
+    },
+    "gaotianliuyun": {
+      "name": "高天流云·298源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "kind": "config",
+      "sites": 298,
+      "lives": 2,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "laoliubei": {
+      "name": "老六杯CI日更·234源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json",
+      "kind": "config",
+      "sites": 234,
+      "lives": 3,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "liucn": {
+      "name": "流光m·234源",
+      "status": "ok",
+      "url_used": "https://raw.liucn.cc/box/m.json",
+      "kind": "config",
+      "sites": 234,
+      "lives": 3,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "maoystv": {
+      "name": "maoystv000·162源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "kind": "config",
+      "sites": 162,
+      "lives": 10,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "qistjsm": {
+      "name": "qist极简jsm·158源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "kind": "config",
+      "sites": 158,
+      "lives": 3,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "fish": {
+      "name": "摸鱼fish·108源",
+      "status": "ok",
+      "url_used": "https://6800.kstore.vip/fish.json",
+      "kind": "config",
+      "sites": 108,
+      "lives": 1,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "clun": {
+      "name": "CLun·101源17直播",
+      "status": "ok",
+      "url_used": "https://clun.top/box.json",
+      "kind": "config",
+      "sites": 101,
+      "lives": 17,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "qist0821": {
+      "name": "qist0821大而全·86源17直播",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
+      "kind": "config",
+      "sites": 86,
+      "lives": 16,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "wangerxiao": {
+      "name": "王二小·63源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json",
+      "kind": "config",
+      "sites": 63,
+      "lives": 2,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "wex": {
+      "name": "无邪wex·63源",
+      "status": "ok",
+      "url_used": "https://d.kstore.dev/download/9280/wex.json",
+      "kind": "config",
+      "sites": 63,
+      "lives": 2,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "szyyds": {
+      "name": "神秘szyyds·62源10直播",
+      "status": "ok",
+      "url_used": "https://szyyds.cn/tv/x.json",
+      "kind": "config",
+      "sites": 62,
+      "lives": 10,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "xiaoma": {
+      "name": "小马·62源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json",
+      "kind": "config",
+      "sites": 62,
+      "lives": 10,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "4k": {
+      "name": "4K·53源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json",
+      "kind": "config",
+      "sites": 53,
+      "lives": 2,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "fty": {
+      "name": "饭太硬·48源",
+      "status": "ok",
+      "url_used": "https://qist.wyfc.qzz.io/fty.json",
+      "kind": "config",
+      "sites": 48,
+      "lives": 6,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "xyq": {
+      "name": "香雅情XYQ·48源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "kind": "config",
+      "sites": 48,
+      "lives": 3,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "oktv": {
+      "name": "2hacc·41源",
+      "status": "ok",
+      "url_used": "https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+      "kind": "config",
+      "sites": 41,
+      "lives": 4,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "feimao": {
+      "name": "肥猫·40源",
+      "status": "ok",
+      "url_used": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json",
+      "kind": "config",
+      "sites": 40,
+      "lives": 1,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "fswws": {
+      "name": "fswws自动更新·9源25直播",
+      "status": "ok",
+      "url_used": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json",
+      "kind": "config",
+      "sites": 9,
+      "lives": 25,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    },
+    "top98": {
+      "name": "俊于top98·24源",
+      "status": "ok",
+      "url_used": "http://home.jundie.top:81/top98.json",
+      "kind": "config",
+      "sites": 24,
+      "lives": 2,
+      "lines": 0,
+      "spider": true,
+      "streak": 0
+    }
+  }
 }
